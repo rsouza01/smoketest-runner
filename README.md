@@ -1,4 +1,4 @@
-![Logo](logo.png)
+![Logo](logo.jpg)
 
 Smoketest runner (smoketest_runner)
 =================================
