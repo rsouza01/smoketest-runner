@@ -2,4 +2,6 @@
 
 source .env
 
+export PYTHONPATH=$PYTHONPATH:.
+
 source ./env/bin/activate
