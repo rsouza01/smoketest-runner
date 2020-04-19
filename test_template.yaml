@@ -1,8 +1,20 @@
 STTemplateFormatVersion: '2020-04-15'
-Description: >
-  Template for creating smoke tests
 
 env:
   variables:
     BASE_URL: "https://ronreiter-meme-generator.p.rapidapi.com/"
         
+info:
+  description: "Template for creating smoke tests"
+  version: "1.0.0"
+  title: "API XYZ"
+host: "api.mywebsite.io"
+basePath: "/v1"
+
+
+paths:
+  /pet:
+    order: 1
+    method: 'GET'
+    header:
+    - 'param1': 'value1'
